@@ -1,0 +1,8 @@
+.logo svg g path {
+  /* fill: var(--primary) !important; */
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

@@ -1,0 +1,46 @@
+.sceneContainer {
+  padding: 20px;
+}
+
+.sceneContents {
+  display: flex;
+}
+
+.sceneHeader {
+  border-bottom: 1px solid lightgray;
+}
+
+.classes {
+  flex: 1;
+  margin: 20px;
+  border-right: 1px solid lightgray;
+}
+
+.classesHeader {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+.oneClass,
+.oneGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  cursor: pointer;
+  margin: 5px 5px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: var(--description-color);
+}
+
+.oneClass:hover,
+.oneGroup:hover {
+  background-color: var(--active-button-color);
+}
+
+.oneClass.activeClass {
+  background-color: var(--active-button-color);
+  color: #0d71f5 !important;
+}

@@ -1,0 +1,8 @@
+.dashContainer {
+  max-height: 100vh;
+  display: flex;
+}
+
+.maincontents {
+  flex: 1;
+}
